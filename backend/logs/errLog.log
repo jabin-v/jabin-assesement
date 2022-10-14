@@ -1,0 +1,5 @@
+20221014	09:47:47	e6c6daa2-a287-4f7c-8c92-a1c58448f1e9	ReferenceError: path is not defined	GET	/	undefined
+20221014	09:47:47	bd87f0ab-6cfa-407c-8005-2c37f0760ca5	ReferenceError: path is not defined	GET	/favicon.ico	undefined
+20221014	09:48:36	cf497106-e4f6-4905-b80d-2eb425b57ffc	ReferenceError: path is not defined	GET	/	undefined
+20221014	09:48:49	ae6b57ed-ecc4-4ec4-9ba0-f8077f2fd6a1	ReferenceError: path is not defined	GET	/	undefined
+20221014	10:57:31	b0b9cae4-15a4-455c-acfe-0e2c777a320f	ReferenceError: bcrypt is not defined	POST	/users	undefined
