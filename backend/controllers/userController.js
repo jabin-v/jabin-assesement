@@ -47,10 +47,41 @@ const createNewUser = asyncHandler(async (req, res) => {
     const user = await User.create(userObject)
 
     if (user) { //created 
-        res.status(201).json({ message: `New user created with email  ${email} ` })
+        res.status(201).json({ 
+            message: `New user created with email  ${email} ` 
+        })
     } else {
         res.status(400).json({ message: 'Invalid user data received' })
     }
+})
+
+const loginUser = asyncHandler(async (req, res) => {
+    const { email, password } = req.body
+
+    // Confirm data
+    if (!email || !password) {
+        return res.status(400).json({ message: 'All fields are required' })
+    }
+
+    //finding user by email
+
+    const foundUser = await User.findOne({ email }).exec();
+
+    
+    if (!foundUser) {
+        return res.status(401).json({ message: 'Unauthorized' })
+
+    }
+
+    const match = await bcrypt.compare(password, foundUser.password);
+
+    if (!match) return res.status(401).json({ message: 'Unauthorized' });
+
+    res.json(foundUser.email)
+
+
+    
+    
 })
 
 
@@ -58,6 +89,7 @@ const createNewUser = asyncHandler(async (req, res) => {
     module.exports = {
         getAllUsers,
         createNewUser,
+        loginUser
 
     }
 

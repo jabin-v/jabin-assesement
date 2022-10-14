@@ -76,3 +76,17 @@
 20221014	12:31:25	a682e1c1-70fb-48a9-82b8-5cb9ebffc480	POST	/stock	undefined
 20221014	12:31:38	23e9b35b-a92f-4236-b70b-22974663d11f	POST	/products/instock	undefined
 20221014	12:31:45	59ac9689-2533-4ed7-a763-159f33b5e1fe	GET	/products/instock	undefined
+20221014	13:08:26	ef67b83e-074d-4e2c-aad6-fe36cb89c13d	POST	/users	undefined
+20221014	13:09:29	6eabbf03-367b-49c6-8539-3dd91dfca71b	POST	/users	undefined
+20221014	13:16:26	8ab8f3b0-c4ce-46b7-b479-cdb73f45ac3d	POST	/users/login	undefined
+20221014	13:16:34	0755c5c1-cc50-4357-9da4-d03ac91bf5e1	POST	/users/login	undefined
+20221014	13:16:38	fd190753-5c89-4f7c-9121-1f3e9e8c3acd	POST	/users/login	undefined
+20221014	13:17:33	39e67500-23f4-4c2e-8bb5-078b729a0cd6	POST	/users/login	undefined
+20221014	13:45:51	769bd85b-e6dc-4749-aa4b-993d9f92b9f8	OPTIONS	/users/login	http://localhost:3000
+20221014	13:45:51	c717c62b-0940-42e8-bd0a-fab9afc5e96c	POST	/users/login	http://localhost:3000
+20221014	13:47:19	bac0c609-83ed-456b-b34d-fcac683a5232	OPTIONS	/users/login	http://localhost:3000
+20221014	13:47:19	0010a5ed-4397-4b8e-a82c-c2397eb8611f	POST	/users/login	http://localhost:3000
+20221014	13:50:33	9629e00f-9af7-479b-b884-84a894580db6	OPTIONS	/users/login	http://localhost:3000
+20221014	13:50:33	0cfaaa23-36ae-4e7d-8baf-1c8106c020dd	POST	/users/login	http://localhost:3000
+20221014	13:51:31	61f9ded3-71c0-44af-896c-3db0882dc1a0	OPTIONS	/users/login	http://localhost:3000
+20221014	13:51:32	124f9705-3814-4872-885d-18e81472d9a4	POST	/users/login	http://localhost:3000
