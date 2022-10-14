@@ -90,3 +90,14 @@
 20221014	13:50:33	0cfaaa23-36ae-4e7d-8baf-1c8106c020dd	POST	/users/login	http://localhost:3000
 20221014	13:51:31	61f9ded3-71c0-44af-896c-3db0882dc1a0	OPTIONS	/users/login	http://localhost:3000
 20221014	13:51:32	124f9705-3814-4872-885d-18e81472d9a4	POST	/users/login	http://localhost:3000
+20221014	13:55:29	64a773b3-753f-4f53-adc8-01cfc7f267d1	OPTIONS	/users/login	http://localhost:3000
+20221014	13:55:29	586890be-6de5-4555-81e9-24fa4b8c9324	POST	/users/login	http://localhost:3000
+20221014	13:57:24	411800d3-8b78-4c14-aaf9-86b49d3d0bf9	GET	/products/instock	http://localhost:3000
+20221014	13:58:05	2b4127e3-7173-4120-991e-08e2fb374335	GET	/products/instock	http://localhost:3000
+20221014	14:08:44	b7e85ad8-5c62-4fc1-a9a1-8eb228e83cb7	GET	/products/instock	http://localhost:3000
+20221014	14:08:51	0b31de83-fa32-4cb4-9c04-3215cea8066e	GET	/products/instock	http://localhost:3000
+20221014	14:14:45	99a97724-e2bf-41b3-ba46-603ebfbc9f3f	GET	/products/instock	http://localhost:3000
+20221014	14:14:52	d319ef0e-8cc2-4685-8ddf-b188b8900a68	GET	/products/instock	http://localhost:3000
+20221014	14:15:32	88d1c0d0-4900-47ec-9678-7f2b13bc1f0c	GET	/products/instock	http://localhost:3000
+20221014	14:16:25	c7f74f77-adce-4bb4-9a6d-6a04d471f4a3	GET	/products/instock	http://localhost:3000
+20221014	14:20:24	93481540-2061-4fa3-83e4-eddd80f331ca	GET	/products/instock	http://localhost:3000
