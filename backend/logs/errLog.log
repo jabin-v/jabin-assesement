@@ -3,3 +3,5 @@
 20221014	09:48:36	cf497106-e4f6-4905-b80d-2eb425b57ffc	ReferenceError: path is not defined	GET	/	undefined
 20221014	09:48:49	ae6b57ed-ecc4-4ec4-9ba0-f8077f2fd6a1	ReferenceError: path is not defined	GET	/	undefined
 20221014	10:57:31	b0b9cae4-15a4-455c-acfe-0e2c777a320f	ReferenceError: bcrypt is not defined	POST	/users	undefined
+20221014	11:55:35	531c611f-f626-48d0-b013-6c6b69993586	MongoServerError: Path collision at product_id	GET	/delivery	undefined
+20221014	12:06:37	eef17f79-7c39-4f2a-a641-5de2dbb55235	StrictPopulateError: Cannot populate path `product_id` because it is not in your schema. Set the `strictPopulate` option to false to override.	GET	/delivery	undefined

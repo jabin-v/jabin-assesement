@@ -46,25 +46,8 @@ const createNewProduct = asyncHandler(async (req, res) => {
 })
 
 
-// @desc Get all products in stock
-// @route GET /products/instock
-// @access public
-const getAllInStock = asyncHandler(async (req, res) => {
-    // Get all products from MongoDB
-    const products = await Product.find({inStock:true}).lean()
-
-    // If no products 
-    if (!products?.length) {
-        return res.status(400).json({ message: 'No products  found' })
-    }
-
-    res.json(products)
-})
-
-
 module.exports = {
     getAllProducts,
-    createNewProduct,
-    getAllInStock
+    createNewProduct
     
 }

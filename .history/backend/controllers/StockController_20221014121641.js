@@ -20,7 +20,7 @@ const getStockList = asyncHandler(async (req, res) => {
 // @desc Create new product
 // @route POST /products
 // @access public
-const createStock = asyncHandler(async (req, res) => {
+const createDeliveryList = asyncHandler(async (req, res) => {
     const { product_id} = req.body
 
     // Confirm data
@@ -43,7 +43,7 @@ const createStock = asyncHandler(async (req, res) => {
 
     if (stockItem) { // Created 
         product.inStock=true;
-        await product.save()
+        const updatedProduct = await product.save()
 
         return res.status(201).json({ message: 'New delivery item added' })
     } else {
@@ -54,7 +54,7 @@ const createStock = asyncHandler(async (req, res) => {
 
 
 module.exports = {
-    createStock,
+    createDeliveryList,
     getStockList
 
     
